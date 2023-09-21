@@ -1,0 +1,34 @@
+/* UserList.css */
+
+/* Style the container */
+div {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Style the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Style table headers */
+  th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Style table rows */
+  tr {
+    &:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  }
+  
+  /* Style table data cells */
+  td {
+    padding: 8px;
+  }
+  
