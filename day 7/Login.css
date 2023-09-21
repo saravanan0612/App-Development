@@ -1,0 +1,33 @@
+.div {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Style the input fields */
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style the buttons */
+.button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Center the login/logout button */
+.button:last-child {
+  margin-top: 10px;
+}
