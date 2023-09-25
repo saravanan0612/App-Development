@@ -1,0 +1,122 @@
+
+
+.sign-body {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  
+  box-sizing: border-box;
+}
+
+.sign-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 350px;
+  padding: 60px;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  text-align: center;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #080808;
+  font-family: Arial, sans-serif;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.sign-button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #13ab4b, #13ab4b);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background: linear-gradient(to right, #24a03d, #24a03d);
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+.login-link {
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.login-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+/* Popup Styles */
+
+.popup-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.popup-box p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.popup-box a {
+  display: block;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.popup-box a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}

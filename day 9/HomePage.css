@@ -1,0 +1,225 @@
+.sidebar {
+    background-color: rgb(49, 49, 48);
+    width: 250px;
+    flex-shrink: 0;
+    color: white;
+  }
+  
+  /* Main content styles */
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: Arial, sans-serif;
+  }
+  .text-box{
+    padding-bottom: 10px;
+    width: 90%;
+    color: #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+  /* Styling for the container of grid items */
+  .grid-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-right: -300px;
+  }
+  
+  /* Styling for grid items */
+  .grid-item {
+    background-color: lightgray;
+    text-align: center;
+    box-shadow: 3px 7px 5px rgba(224, 218, 218, 0.7);
+    height: auto;
+    max-width: 300px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-right: 120px;
+  }
+  
+  /* Styling for links in the sidebar */
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: rgb(49, 49, 48);
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Dashboard container */
+  .dashboard-container {
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #000000;
+    color: white;
+    padding: 10px 0;
+    text-align: right;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: rgb(238, 236, 236);
+  }
+  
+  /* Event List Box */
+  .event-list-box {
+    padding: 20px;
+    text-align: center;
+    box-shadow: 3px 7px 5px rgba(224, 218, 218, 0.7);
+    margin-top: 50px;
+    margin-right: -140px;
+    background-color: #f3f3f3;
+    width: 400px;
+  }
+  
+  .event-list-box h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Event styles */
+  .event {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 3px 7px 5px rgba(224, 218, 218, 0.7);
+  }
+  
+  .event h2 {
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .event p {
+    font-size: 16px;
+    color: #5da4eb;
+    margin: 0;
+  }
+  
+  /* Volunteer List Box */
+  
+  .volunteers-list-box {
+    background-color: #f3f3f3;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 3px 7px 5px rgba(224, 218, 218, 0.7);
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: -140px;
+    max-height: 400px; /* Set a maximum height */
+    overflow-y: auto; /* Enable vertical scrollbar when content overflows */
+    width: 400px;
+  }
+  
+  /* Volunteer styles */
+  .volunteer {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 3px 7px 5px rgba(224, 218, 218, 0.7);
+  }
+  
+  .volunteer h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .volunteer p {
+    font-size: 16px;
+    color: #5da4eb;
+    margin: 0;
+  }
+
+  .ubisoft{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px; 
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ubisoft-col{
+    flex-basis: 31%;
+    background:#fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.ubisoft-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+  
